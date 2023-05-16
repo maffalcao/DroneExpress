@@ -23,7 +23,8 @@ public class DroneDeliverySolverTests
             new Location("Location 4", 7)
         };
 
-        var solver = new DroneDeliverySolver(drones, locations);
+        var solver = new DroneDeliverySolver();
+        solver.Initialize(drones, locations);
 
         // Act
         solver.Solve();
@@ -52,7 +53,8 @@ public class DroneDeliverySolverTests
             new Location("Location 4", 7)
         };
 
-        var solver = new DroneDeliverySolver(drones, locations);
+        var solver = new DroneDeliverySolver();
+        solver.Initialize(drones, locations);
         solver.Solve();
 
         // Act

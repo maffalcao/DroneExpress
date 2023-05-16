@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "sXDahLNt7zFocccMNG1ysgOlNsHfl5dksQ3hjcqOu9dLkzGTJY7U/Hv8S9lgzQncjr5NzYILDp8dJjfBeRG4eQ==",
+  "dgSpecHash": "p/T5v7x8KURDcb/yX3KT8YdhlLfOzVJXmJThV/19LfNHM6M//6KsQZyYcRtYD6Q8z9FoELMFsDjifdwkxQ716Q==",
   "success": true,
   "projectFilePath": "C:\\git\\DroneExpress\\Tests\\Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MarcoFalcão\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\MarcoFalcão\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",
     "C:\\Users\\MarcoFalcão\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
+    "C:\\Users\\MarcoFalcão\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+    "C:\\Users\\MarcoFalcão\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\MarcoFalcão\\.nuget\\packages\\microsoft.net.test.sdk\\17.3.2\\microsoft.net.test.sdk.17.3.2.nupkg.sha512",
     "C:\\Users\\MarcoFalcão\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\MarcoFalcão\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

@@ -103,3 +103,5 @@ C:\git\DroneExpress\Tests\obj\Debug\net7.0\refint\Tests.dll
 C:\git\DroneExpress\Tests\obj\Debug\net7.0\Tests.pdb
 C:\git\DroneExpress\Tests\obj\Debug\net7.0\Tests.genruntimeconfig.cache
 C:\git\DroneExpress\Tests\obj\Debug\net7.0\ref\Tests.dll
+C:\git\DroneExpress\Tests\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+C:\git\DroneExpress\Tests\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
