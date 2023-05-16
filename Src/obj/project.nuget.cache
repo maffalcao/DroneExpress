@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4CYlYNcbpduoxNiE+a0071GA1hDi5kAf4SuHQRuQyg9jNrPkVeVPLUztk+rnwao90+OFpspPhbsOd0gB9ke/gw==",
+  "dgSpecHash": "+zEt9gAbpsn4BmH+R3vbmzgIL8TesJzCuYyejEklXD9AZkPJN9oti3MrBJJeuWCOx99oQlVH92lUB4LJWsT7lg==",
   "success": true,
-  "projectFilePath": "C:\\git\\DroneExpress\\Src\\Src.csproj",
+  "projectFilePath": "C:\\git\\DroneExpress\\src\\Src.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

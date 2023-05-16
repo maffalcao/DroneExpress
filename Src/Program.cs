@@ -1,4 +1,5 @@
-﻿using Src.Models;
+﻿using Src.Helpers;
+using Src.Models;
 using Src.Services;
 
 class Program
@@ -14,44 +15,17 @@ class Program
         string inputFile = args[0];
         string outputFile = args[1];
 
-        List<Drone> drones = new List<Drone>();
-        List<Location> locations = new List<Location>();
+        // Read input file
+        var (drones, locations) = InputReader.ReadInputFile(inputFile);
 
-        try
-        {
-            // Reading the input file
-            string[] inputLines = File.ReadAllLines(inputFile);
-
-            // Processing the drones
-            string[] droneData = inputLines[0].Split(',');
-            for (int i = 0; i < droneData.Length; i += 2)
-            {
-                string droneName = droneData[i].Trim();
-                int maxWeight = int.Parse(droneData[i + 1].Trim());
-                drones.Add(new Drone(droneName, maxWeight));
-            }
-
-            // Processing of locations
-            for (int i = 1; i < inputLines.Length; i++)
-            {
-                string[] locationData = inputLines[i].Split(',');
-                string locationName = locationData[0].Trim();
-                int packageWeight = int.Parse(locationData[1].Trim());
-                locations.Add(new Location(locationName, packageWeight));
-            }
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine("Error reading input file: " + ex.Message);
-            return;
-        }
-
-        // Resolution of the problem
+        // Solve the problem
         DroneDeliverySolver solver = new DroneDeliverySolver(drones, locations);
         solver.Solve();
 
+        // Generate output
+        string output = solver.Print();
 
-        File.WriteAllText(outputFile, solver.Print());
-        Console.WriteLine("Output successfuly generated");
+        // Write output file
+        OutputWriter.WriteOutputFile(outputFile, output);
     }
 }

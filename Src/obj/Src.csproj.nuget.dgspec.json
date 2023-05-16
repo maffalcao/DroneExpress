@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\git\\DroneExpress\\Src\\Src.csproj": {}
+    "C:\\git\\DroneExpress\\src\\Src.csproj": {}
   },
   "projects": {
-    "C:\\git\\DroneExpress\\Src\\Src.csproj": {
+    "C:\\git\\DroneExpress\\src\\Src.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\git\\DroneExpress\\Src\\Src.csproj",
+        "projectUniqueName": "C:\\git\\DroneExpress\\src\\Src.csproj",
         "projectName": "Src",
-        "projectPath": "C:\\git\\DroneExpress\\Src\\Src.csproj",
+        "projectPath": "C:\\git\\DroneExpress\\src\\Src.csproj",
         "packagesPath": "C:\\Users\\MarcoFalcão\\.nuget\\packages\\",
-        "outputPath": "C:\\git\\DroneExpress\\Src\\obj\\",
+        "outputPath": "C:\\git\\DroneExpress\\src\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MarcoFalcão\\AppData\\Roaming\\NuGet\\NuGet.Config",

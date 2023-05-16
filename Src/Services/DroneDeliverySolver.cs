@@ -1,9 +1,10 @@
 using System.Text;
 using Src.Models;
+using Src.Services.Interfaces;
 
 namespace Src.Services;
 
-public class DroneDeliverySolver
+public class DroneDeliverySolver: IDroneDeliverySolver
 {
     private List<Drone> drones;
     private List<Location> locations;
