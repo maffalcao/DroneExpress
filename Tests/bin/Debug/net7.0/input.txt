@@ -1,0 +1,3 @@
+Drone 1, 10
+Location 1, 5
+Location 2, 8
