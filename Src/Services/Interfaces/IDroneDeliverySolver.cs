@@ -3,4 +3,5 @@ public interface IDroneDeliverySolver
 {
     void Solve();
     string Print();
+    int TotalTrips();
 }

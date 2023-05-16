@@ -71,4 +71,16 @@ public class DroneDeliverySolver: IDroneDeliverySolver
 
         return sb.ToString();
     }
+
+    public int TotalTrips()
+    {
+        int totalTrips = 0;
+
+        foreach (var drone in drones)
+        {
+            totalTrips += drone.Trips.Count;
+        }
+
+        return totalTrips;
+    }
 }
