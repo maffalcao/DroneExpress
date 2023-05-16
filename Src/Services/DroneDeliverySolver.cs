@@ -4,12 +4,12 @@ using Src.Services.Interfaces;
 
 namespace Src.Services;
 
-public class DroneDeliverySolver: IDroneDeliverySolver
+public class DroneDeliverySolver : IDroneDeliverySolver
 {
     private List<Drone> drones;
     private List<Location> locations;
 
-    public DroneDeliverySolver(List<Drone> drones, List<Location> locations)
+    public void Initialize(List<Drone> drones, List<Location> locations)
     {
         this.drones = drones;
         this.locations = locations;

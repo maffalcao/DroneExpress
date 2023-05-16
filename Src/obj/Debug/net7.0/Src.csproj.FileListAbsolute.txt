@@ -13,3 +13,6 @@ C:\git\DroneExpress\Src\obj\Debug\net7.0\refint\Src.dll
 C:\git\DroneExpress\Src\obj\Debug\net7.0\Src.pdb
 C:\git\DroneExpress\Src\obj\Debug\net7.0\Src.genruntimeconfig.cache
 C:\git\DroneExpress\Src\obj\Debug\net7.0\ref\Src.dll
+C:\git\DroneExpress\Src\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+C:\git\DroneExpress\Src\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\git\DroneExpress\Src\obj\Debug\net7.0\Src.csproj.CopyComplete

@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "4CYlYNcbpduoxNiE+a0071GA1hDi5kAf4SuHQRuQyg9jNrPkVeVPLUztk+rnwao90+OFpspPhbsOd0gB9ke/gw==",
+  "dgSpecHash": "1ng1B1cw/0A74jo6NxiaCamP08oD3aEk5zXwT6GZf09JXpJ1QHhduoRqDY9GCmg2Z1fqLuAVBC/PC3vqN9FA1Q==",
   "success": true,
   "projectFilePath": "C:\\git\\DroneExpress\\Src\\Src.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\MarcoFalcão\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+    "C:\\Users\\MarcoFalcão\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
