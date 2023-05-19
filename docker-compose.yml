@@ -1,0 +1,6 @@
+version: "3.8"
+services:
+  src_app:
+    build:
+      context: .
+      dockerfile: Src/Dockerfile

@@ -29,3 +29,31 @@ Output Writing:
 
 The generated output string is written to the output file specified.
 By following this strategy, the code efficiently assigns packages to drones based on their weight capacity and prints the drone deliveries in the desired format. The approach aims to optimize the utilization of drones while considering the weight restrictions imposed by each drone.
+
+
+Running the Console Application
+To run the console application, you'll need to have Docker installed on your machine. If you don't have Docker, you can download and install it from the Docker website.
+
+Please follow the steps below to run the console application:
+
+Open a terminal and navigate to the root directory of the cloned repository.
+
+Build the Docker image for the console application using the following command:
+
+shell
+Copy code
+docker build -t myapp .
+This command will build the Docker image based on the Dockerfile in the root directory of the project.
+
+Start a Docker container from the built image with the following command:
+
+shell
+Copy code
+docker run -it myapp
+This command will start the container and run the console application inside it.
+
+You should now see the output of your console application in the terminal.
+
+Note: If your console application requires any command-line arguments or environment variables, you can pass them using the appropriate Docker commands or flags. Refer to your application's documentation for specific requirements.
+
+To stop the console application, you can press Ctrl + C in the terminal.

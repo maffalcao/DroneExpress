@@ -1,0 +1,7 @@
+C:\git\DroneExpress\publish\Src.exe
+C:\git\DroneExpress\publish\Src.dll
+C:\git\DroneExpress\publish\Src.deps.json
+C:\git\DroneExpress\publish\Src.runtimeconfig.json
+C:\git\DroneExpress\publish\Src.pdb
+C:\git\DroneExpress\publish\Microsoft.Extensions.DependencyInjection.dll
+C:\git\DroneExpress\publish\Microsoft.Extensions.DependencyInjection.Abstractions.dll
