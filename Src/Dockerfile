@@ -1,21 +1,19 @@
-# Build stage
-FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
+FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS base
 WORKDIR /app
 
-# Copy and restore project files
-COPY Src/Src.csproj Src/
-RUN dotnet restore Src/Src.csproj
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+WORKDIR /
+COPY ["Src.csproj", "Scr/"]
+RUN dotnet restore "Scr.csproj"
 
-# Copy the entire code and build the application
-COPY Src/ .
-RUN dotnet build -c Release -o /app/build
+COPY . .
+WORKDIR /Src
+RUN dotnet build "Src.csproj" -c Release -o /app/build
 
-# Publish stage
 FROM build AS publish
-RUN dotnet publish -c Release -o /app/publish
+RUN dotnet publish "Src.csproj" -c Release -o /app/publish
 
-# Final stage
-FROM mcr.microsoft.com/dotnet/runtime:7.0 AS final
+FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "Src.dll"]
+ENTRYPOINT ["dotnet", "Application.dll"]

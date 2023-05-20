@@ -2,6 +2,8 @@
 
 DroneExpress: A next-gen drone delivery system for efficient package transportation. Optimize routes, minimize trips, and reduce costs. Revolutionizing logistics with autonomous drones. #logistics #drones #delivery
 
+![DroneExpress](https://tropogo.com/blogs/images/blog/img_india-drone-delivery-progress-banner.png)
+
 # Resolution
 
 Input Processing:
@@ -29,7 +31,6 @@ Output Writing:
 
 The generated output string is written to the output file specified.
 By following this strategy, the code efficiently assigns packages to drones based on their weight capacity and prints the drone deliveries in the desired format. The approach aims to optimize the utilization of drones while considering the weight restrictions imposed by each drone.
-
 
 Running the Console Application
 To run the console application, you'll need to have Docker installed on your machine. If you don't have Docker, you can download and install it from the Docker website.
