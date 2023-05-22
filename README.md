@@ -6,14 +6,15 @@ DroneExpress: A next-gen drone delivery system for efficient package transportat
 
 # Resolution
 
-Input Processing:
+##Input Processing:
 
 The input is read from the command line, with the input file path and output file path provided as arguments.
 The input file contains information about drones and locations.
 The drone data is extracted from the first line of the input file, where each drone's name and maximum weight are listed.
 The location data is extracted from the subsequent lines, where each location's name and package weight are listed.
 Drones and locations are instantiated based on the extracted data and stored in separate lists.
-Problem Solving:
+
+##Problem Solving:
 
 The locations are sorted in descending order based on package weight.
 For each drone, a trip list and remaining weight are initialized.
@@ -21,7 +22,8 @@ Iterating through the sorted locations, if a location's package weight is within
 When the remaining weight reaches zero, the current trip is added to the drone's trip list, and a new trip and remaining weight are initialized.
 If there are any remaining locations after iterating through all the locations, they are added as a separate trip.
 This process ensures that each drone carries as many packages as possible within its weight capacity.
-Output Printing:
+
+##Output Printing:
 
 The results of the drone deliveries are printed.
 The Print() method iterates through each drone and its corresponding trips.
